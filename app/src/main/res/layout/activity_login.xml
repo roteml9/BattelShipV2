@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login"
+    android:background="#00BCD4"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="35dp"
+        >
+    </TextView>
+
+    <EditText
+        android:id="@+id/LoginEmail"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"
+        android:hint="Enter your Email"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/LoginPsw"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter your password"
+        android:minHeight="48dp">
+
+    </EditText>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="countinue"
+        android:backgroundTint="#00BCD4"
+        android:id="@+id/LoginCountinueB">
+
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="dont have an account sign up now"
+        android:id="@+id/LoginRegisterB"
+        android:backgroundTint="#00BCD4">
+
+    </Button>
+</LinearLayout>

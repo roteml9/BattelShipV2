@@ -29,7 +29,7 @@ public class Login extends AppCompatActivity {
         pswLogin = findViewById(R.id.LoginPsw);
         countinueLoging = findViewById(R.id.LoginCountinueB);
         countinueLoging.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override//moving to home screen
             public void onClick(View v) {
                 Editable editable = emailLogin.getText();
                 String emailLoginS = editable.toString();
@@ -45,7 +45,7 @@ public class Login extends AppCompatActivity {
 
         toRegistretion = findViewById(R.id.LoginRegisterB);
         toRegistretion.setOnClickListener(new View.OnClickListener() {
-            @Override
+            @Override//moving to register screen
             public void onClick(View v) {
                 Intent intent = new Intent(Login.this,Register.class);
                 startActivity(intent);

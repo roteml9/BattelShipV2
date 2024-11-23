@@ -11,6 +11,10 @@ public class UserDetails {
         this.usrPhone = usrPhone;
     }
 
+    public UserDetails() {
+
+    }
+
     public String getUsrPsw() {
         return usrPsw;
     }

@@ -8,6 +8,7 @@
     android:orientation="vertical"
     tools:context=".Register"
     android:background="#00BCD4">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -19,12 +20,12 @@
     </TextView>
 
     <EditText
-        android:id="@+id/regEmail"
+        android:id="@+id/UserName"
         android:layout_width="180dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="40dp"
-        android:hint="Enter your Email"
+        android:hint="Enter your name"
         android:minHeight="48dp">
     </EditText>
 
@@ -34,6 +35,17 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="5dp"
         android:hint="Enter your Email"
+        android:id="@+id/UserEmail"
+        android:minHeight="48dp">
+    </EditText>
+
+    <EditText
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="Enter your id"
+        android:id="@+id/UserID"
         android:minHeight="48dp">
     </EditText>
 
@@ -43,21 +55,12 @@
         android:layout_marginLeft="50dp"
         android:layout_marginTop="5dp"
         android:hint="Enter your password"
+        android:id="@+id/UserPwd"
         android:minHeight="48dp">
     </EditText>
 
     <EditText
-        android:id="@+id/regPsw"
-        android:layout_width="180dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="5dp"
-        android:hint="Enter your password"
-        android:minHeight="48dp">
-    </EditText>
-
-    <EditText
-        android:id="@+id/regPhd"
+        android:id="@+id/UserPhone"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
@@ -73,7 +76,7 @@
         android:layout_marginTop="40dp"
         android:text="countinue"
         android:backgroundTint="#00BCD4"
-        android:id="@+id/regCountinueB">
+        android:id="@+id/CountinueButton">
     </Button>
     <Button
         android:layout_width="wrap_content"
